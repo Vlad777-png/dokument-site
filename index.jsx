@@ -1,0 +1,1 @@
+export default function DokumentSite() { return <div>Сервіс ДОКУМЕНТ</div>; }
