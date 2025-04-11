@@ -1,1 +1,38 @@
-body { font-family: sans-serif; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f9fafb;
+}
+header {
+  background: #6b21a8;
+  color: white;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+main {
+  padding: 20px;
+}
+.logo {
+  max-width: 120px;
+}
+form input, form textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+form button {
+  background: #6b21a8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
